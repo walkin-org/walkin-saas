@@ -1,0 +1,25 @@
+{
+  "name": "walkin-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "seed:market": "node --env-file-if-exists=.env datasets/demo-market/seed.js",
+    "build": "node client-build.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.800.0",
+    "esbuild": "^0.28.2",
+    "express": "^5.1.0",
+    "nodemailer": "^10.6.0",
+    "pg": "^8.16.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

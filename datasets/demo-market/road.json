@@ -1,0 +1,17 @@
+{
+  "road": {
+    "id": "demo-arcade-lane",
+    "market": "Demo Arcade Market",
+    "area_type": "shopping_area",
+    "name": "Arcade Lane",
+    "start_label": "Clock gate",
+    "end_label": "Fountain court",
+    "length_m": 60
+  },
+  "storefronts": [
+    {"id":"demo-paper-house","name":"Paper House","side":"left","offsetM":4,"frontageM":8,"facade":"paper-house.png","landmark":"First shop after the clock gate"},
+    {"id":"demo-cloth-room","name":"Cloth Room","side":"left","offsetM":19,"frontageM":12,"facade":"cloth-room.png","landmark":"Beyond the side passage"},
+    {"id":"demo-tea-counter","name":"Tea Counter","side":"right","offsetM":6,"frontageM":5,"facade":"tea-counter.png","landmark":"Opposite Paper House"},
+    {"id":"demo-copper-works","name":"Copper Works","side":"right","offsetM":28,"frontageM":10,"facade":"copper-works.png","landmark":"Before the fountain court"}
+  ]
+}
